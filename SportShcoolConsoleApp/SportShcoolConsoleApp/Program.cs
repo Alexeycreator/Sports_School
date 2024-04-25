@@ -6,6 +6,8 @@ namespace SportShcoolConsoleApp
     {
         static void Main(string[] args)
         {
+            //ActionsDb actionsDb = new ActionsDb();
+            //actionsDb.CreateElement();
             Console.ReadKey();
         }
     }
