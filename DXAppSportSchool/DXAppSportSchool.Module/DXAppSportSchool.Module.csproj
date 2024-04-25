@@ -39,6 +39,9 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="23.2.5" />
+    <PackageReference Include="Npgsql">
+      <Version>4.0.3</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Dashboard.v23.2.Core">
@@ -125,6 +128,7 @@
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
@@ -156,6 +160,7 @@
     <Compile Include="BusinessObjects\CoachingStaff.cs" />
     <Compile Include="BusinessObjects\HospitalCard.cs" />
     <Compile Include="BusinessObjects\KindOfSport.cs" />
+    <Compile Include="BusinessObjects\ORMDataModelPostgresqlCode\ConnectionHelper.cs" />
     <Compile Include="BusinessObjects\Student.cs" />
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="BusinessObjects\ApplicationUser.cs" />
@@ -172,6 +177,11 @@
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
+    <None Include="BusinessObjects\ORMDataModelPostgresql.xpo" />
+    <None Include="BusinessObjects\ORMDataModelPostgresql.xpo.diagram">
+      <DependentUpon>ORMDataModelPostgresql.xpo</DependentUpon>
+    </None>
     <None Include="BusinessObjects\ReadMe.txt" />
     <None Include="Controllers\ReadMe.txt" />
     <None Include="DatabaseUpdate\ReadMe.txt" />
