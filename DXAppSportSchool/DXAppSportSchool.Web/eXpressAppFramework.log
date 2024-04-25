@@ -1,0 +1,306 @@
+25.04.24 11:53:48.205	lbit2w3igbimackktxcesi4k	================================================================================
+25.04.24 11:53:48.230	lbit2w3igbimackktxcesi4k	Trace Log for /LM/W3SVC/2/ROOT-1-133585088067685658 is started
+25.04.24 11:53:48.232	lbit2w3igbimackktxcesi4k	================================================================================
+25.04.24 11:53:48.243	lbit2w3igbimackktxcesi4k	System Environment
+	OS Version: Microsoft Windows NT 10.0.22621.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 23.2.5.0
+	eXpressApp File Version: 23.2.5.0
+
+Application config
+	Modules=
+	ErrorReportEmail=
+	ErrorReportEmailServer=
+	SimpleErrorReportPage=
+	RichErrorReportPage=Error.aspx
+	EnableDiagnosticActions=False
+
+25.04.24 11:53:48.514	lbit2w3igbimackktxcesi4k		Session: lbit2w3igbimackktxcesi4k (Timeout: 20)
+25.04.24 11:53:48.517	lbit2w3igbimackktxcesi4k		User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+25.04.24 11:53:48.644	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+25.04.24 11:53:48.653	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							
+
+25.04.24 11:53:48.674	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+Loaded assemblies
+	A_b357ebd1_f03d_4d5d_a5c8_cb21e5e431d2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	App_global.asax.sms-fxby, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Алексей\AppData\Local\Temp\Temporary ASP.NET Files\vs\2785d4b9\76a9cd86\App_global.asax.sms-fxby.dll
+	App_Web_hmeqfoon, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Алексей\AppData\Local\Temp\Temporary ASP.NET Files\vs\2785d4b9\76a9cd86\App_Web_hmeqfoon.dll
+	DevExpress.Charts.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Charts.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Charts.v23.2.Core.dll
+	DevExpress.CodeParser.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.CodeParser.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.CodeParser.v23.2.dll
+	DevExpress.Dashboard.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Dashboard.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Dashboard.v23.2.Core.dll
+	DevExpress.Dashboard.v23.2.Web, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Dashboard.v23.2.Web\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Dashboard.v23.2.Web.dll
+	DevExpress.Dashboard.v23.2.Web.WebForms, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Dashboard.v23.2.Web.WebForms\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Dashboard.v23.2.Web.WebForms.dll
+	DevExpress.Data.Desktop.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.Desktop.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Data.Desktop.v23.2.dll
+	DevExpress.Data.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Data.v23.2.dll
+	DevExpress.DataAccess.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.DataAccess.v23.2.dll
+	DevExpress.DataVisualization.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataVisualization.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.DataVisualization.v23.2.Core.dll
+	DevExpress.Drawing.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Drawing.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Drawing.v23.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v23.2.dll
+	DevExpress.ExpressApp.Dashboards.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Dashboards.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Dashboards.v23.2.dll
+	DevExpress.ExpressApp.Dashboards.Web.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Dashboards.Web.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Dashboards.Web.v23.2.dll
+	DevExpress.ExpressApp.Objects.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v23.2.dll
+	DevExpress.ExpressApp.ReportsV2.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v23.2.dll
+	DevExpress.ExpressApp.ReportsV2.Web.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Web.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Web.v23.2.dll
+	DevExpress.ExpressApp.Security.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v23.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v23.2.dll
+	DevExpress.ExpressApp.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.v23.2.dll
+	DevExpress.ExpressApp.Validation.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v23.2.dll
+	DevExpress.ExpressApp.Validation.Web.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Web.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Web.v23.2.dll
+	DevExpress.ExpressApp.Web.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Web.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Web.v23.2.dll
+	DevExpress.ExpressApp.Xpo.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v23.2.dll
+	DevExpress.Images.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Images.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Images.v23.2.dll
+	DevExpress.Map.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Map.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Map.v23.2.Core.dll
+	DevExpress.Office.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Office.v23.2.Core.dll
+	DevExpress.Pdf.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Pdf.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Pdf.v23.2.Core.dll
+	DevExpress.Pdf.v23.2.Drawing, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Pdf.v23.2.Drawing\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Pdf.v23.2.Drawing.dll
+	DevExpress.Persistent.Base.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Persistent.Base.v23.2.dll
+	DevExpress.Persistent.BaseImpl.Xpo.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.Xpo.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.Xpo.v23.2.dll
+	DevExpress.PivotGrid.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.PivotGrid.v23.2.Core.dll
+	DevExpress.Printing.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Printing.v23.2.Core.dll
+	DevExpress.RichEdit.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.RichEdit.v23.2.Core.dll
+	DevExpress.RichEdit.v23.2.Export, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v23.2.Export\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.RichEdit.v23.2.Export.dll
+	DevExpress.Sparkline.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Sparkline.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Sparkline.v23.2.Core.dll
+	DevExpress.TreeMap.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.TreeMap.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.TreeMap.v23.2.Core.dll
+	DevExpress.Utils.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Utils.v23.2.dll
+	DevExpress.Web.ASPxThemes.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxThemes.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Web.ASPxThemes.v23.2.dll
+	DevExpress.Web.ASPxTreeList.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxTreeList.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Web.ASPxTreeList.v23.2.dll
+	DevExpress.Web.Resources.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.Resources.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Web.Resources.v23.2.dll
+	DevExpress.Web.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Web.v23.2.dll
+	DevExpress.Xpo.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.Xpo.v23.2.dll
+	DevExpress.XtraCharts.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.XtraCharts.v23.2.dll
+	DevExpress.XtraGauges.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGauges.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.XtraGauges.v23.2.Core.dll
+	DevExpress.XtraReports.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.XtraReports.v23.2.dll
+	DevExpress.XtraReports.v23.2.Web, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v23.2.Web\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.XtraReports.v23.2.Web.dll
+	DevExpress.XtraReports.v23.2.Web.WebForms, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v23.2.Web.WebForms\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.XtraReports.v23.2.Web.WebForms.dll
+	DevExpress.XtraScheduler.v23.2.Core, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v23.2.Core\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.XtraScheduler.v23.2.Core.dll
+	DevExpress.XtraTreeMap.v23.2, Version=23.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeMap.v23.2\v4.0_23.2.5.0__b88d1754d700e49a\DevExpress.XtraTreeMap.v23.2.dll
+	DXAppSportSchool.Module, Version=1.0.8881.21397, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Алексей\AppData\Local\Temp\Temporary ASP.NET Files\vs\2785d4b9\76a9cd86\assembly\dl3\41b1e63a\a92f5404_ee96da01\DXAppSportSchool.Module.dll
+	DXAppSportSchool.Module.Web, Version=1.0.8881.21399, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Алексей\AppData\Local\Temp\Temporary ASP.NET Files\vs\2785d4b9\76a9cd86\assembly\dl3\38e83dca\15bd0505_ee96da01\DXAppSportSchool.Module.Web.dll
+	DXAppSportSchool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Алексей\AppData\Local\Temp\Temporary ASP.NET Files\vs\2785d4b9\76a9cd86\assembly\dl3\693349c7\10d59705_ee96da01\DXAppSportSchool.Web.dll
+	Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v4.0\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v4.0.dll
+	Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll
+	Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.JScript\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.JScript.dll
+	Microsoft.VisualStudio.Web.PageInspector.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.Web.PageInspector.Loader\v4.0_1.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Web.PageInspector.Loader.dll
+	Microsoft.WebTools.BrowserLink.Runtime, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Runtime.dll
+	Microsoft.WebTools.BrowserLink.Tracing, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Tracing.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\SMDiagnostics\v4.0_4.0.0.0__b77a5c561934e089\SMDiagnostics.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.Activities.dll
+	System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll
+	System.Data.Services.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.Services.Design\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Services.Design.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll
+	System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.IdentityModel\v4.0_4.0.0.0__b77a5c561934e089\System.IdentityModel.dll
+	System.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\System.resources.dll
+	System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll
+	System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
+	System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activation\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activation.dll
+	System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activities.dll
+	System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Internals\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Internals.dll
+	System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Web\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Web.dll
+	System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll
+	System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll
+	System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.DynamicData\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.DynamicData.dll
+	System.Web.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Web.Entity.dll
+	System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll
+	System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Mobile\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Mobile.dll
+	System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.RegularExpressions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll
+	System.Web.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.resources\v4.0_4.0.0.0_ru_b03f5f7f11d50a3a\System.Web.resources.dll
+	System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll
+	System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.WorkflowServices\v4.0_4.0.0.0__31bf3856ad364e35\System.WorkflowServices.dll
+	System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll
+	System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xaml.Hosting\v4.0_4.0.0.0__31bf3856ad364e35\System.Xaml.Hosting.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll
+25.04.24 11:53:49.154	lbit2w3igbimackktxcesi4k	SetupModules
+25.04.24 11:53:49.628	lbit2w3igbimackktxcesi4k	Customize TypesInfo
+25.04.24 11:53:52.686	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+25.04.24 11:53:52.695	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+25.04.24 11:53:52.709	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Start logon process
+
+25.04.24 11:53:52.715	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+25.04.24 11:53:52.726	lbit2w3igbimackktxcesi4k		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=DXAppSportSchool;XpoDataStorePool=True;
+25.04.24 11:53:52.728	lbit2w3igbimackktxcesi4k		ConnectionString: 
+25.04.24 11:53:52.772	lbit2w3igbimackktxcesi4k	Resolve the 'Microsoft.Data.SqlClient' assembly
+25.04.24 11:53:52.828	lbit2w3igbimackktxcesi4k	Resolve the 'System.Data.SqlClient' assembly
+25.04.24 11:54:04.630	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							UpdateDB
+
+25.04.24 11:54:15.073	lbit2w3igbimackktxcesi4k		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=DXAppSportSchool;XpoDataStorePool=True;
+25.04.24 11:54:17.013	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Logon successful
+
+25.04.24 11:54:17.375	lbit2w3igbimackktxcesi4k	The FormsAuthentication timeout is less than the ASP.NET Session timeout: '10' and '20'. The ASP.NET Session timeout is used for FormsAuthentication.
+25.04.24 11:54:17.380	lbit2w3igbimackktxcesi4k		CurrentUserName: DESKTOP-833SBEA\Алексей
+25.04.24 11:54:17.385	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Logon completed
+
+25.04.24 11:54:17.678	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+25.04.24 11:54:17.682	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+25.04.24 11:54:20.525	lbit2w3igbimackktxcesi4k	The user already logged on, redirecting to the default page
+25.04.24 11:54:20.582	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+25.04.24 11:54:20.585	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+25.04.24 11:54:20.970	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+25.04.24 11:54:21.463	lbit2w3igbimackktxcesi4k	Generate default Model for Action containers
+25.04.24 11:54:21.713	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Execute action
+
+25.04.24 11:54:21.721	lbit2w3igbimackktxcesi4k		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+25.04.24 11:54:21.725	lbit2w3igbimackktxcesi4k		SelectedItem: Users
+25.04.24 11:54:25.775	lbit2w3igbimackktxcesi4k	Action 'ShowNavigationItem' done
+25.04.24 11:54:34.535	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+25.04.24 11:54:34.539	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+25.04.24 11:54:34.593	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Execute action
+
+25.04.24 11:54:34.596	lbit2w3igbimackktxcesi4k		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Users
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+
+25.04.24 11:54:34.600	lbit2w3igbimackktxcesi4k		SelectedItem: Kind Of Sport
+25.04.24 11:54:34.843	lbit2w3igbimackktxcesi4k	Action 'ShowNavigationItem' done
+25.04.24 11:54:36.295	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+25.04.24 11:54:36.297	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+25.04.24 11:54:36.307	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Execute action
+
+25.04.24 11:54:36.315	lbit2w3igbimackktxcesi4k		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Kind Of Sport
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+
+25.04.24 11:54:36.320	lbit2w3igbimackktxcesi4k		SelectedItem: Role
+25.04.24 11:54:36.635	lbit2w3igbimackktxcesi4k	Action 'ShowNavigationItem' done
+25.04.24 11:54:38.346	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+25.04.24 11:54:38.351	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+25.04.24 11:54:38.357	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Execute action
+
+25.04.24 11:54:38.365	lbit2w3igbimackktxcesi4k		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Role
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+
+25.04.24 11:54:38.369	lbit2w3igbimackktxcesi4k		SelectedItem: Student
+25.04.24 11:54:38.435	lbit2w3igbimackktxcesi4k	Action 'ShowNavigationItem' done
+25.04.24 11:54:39.555	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+25.04.24 11:54:39.560	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+25.04.24 11:54:39.568	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Execute action
+
+25.04.24 11:54:39.575	lbit2w3igbimackktxcesi4k		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Student
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+
+25.04.24 11:54:39.576	lbit2w3igbimackktxcesi4k		SelectedItem: Kind Of Sport
+25.04.24 11:54:39.617	lbit2w3igbimackktxcesi4k	Action 'ShowNavigationItem' done
+25.04.24 11:54:40.397	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+25.04.24 11:54:40.400	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+25.04.24 11:54:40.412	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Execute action
+
+25.04.24 11:54:40.414	lbit2w3igbimackktxcesi4k		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Kind Of Sport
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+
+25.04.24 11:54:40.418	lbit2w3igbimackktxcesi4k		SelectedItem: Hospital Card
+25.04.24 11:54:40.470	lbit2w3igbimackktxcesi4k	Action 'ShowNavigationItem' done
+25.04.24 11:54:41.083	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+25.04.24 11:54:41.087	lbit2w3igbimackktxcesi4k		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+25.04.24 11:54:41.098	lbit2w3igbimackktxcesi4k	--------------------------------------------------------------------------------
+							Execute action
+
+25.04.24 11:54:41.101	lbit2w3igbimackktxcesi4k		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Hospital Card
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+
+25.04.24 11:54:41.104	lbit2w3igbimackktxcesi4k		SelectedItem: Coaching Staff
+25.04.24 11:54:41.171	lbit2w3igbimackktxcesi4k	Action 'ShowNavigationItem' done

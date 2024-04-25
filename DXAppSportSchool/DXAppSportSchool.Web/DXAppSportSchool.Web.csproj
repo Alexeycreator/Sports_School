@@ -17,6 +17,8 @@
     <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
     <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,7 +46,7 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-   <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="23.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="23.2.5" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Dashboard.v23.2.Core">
@@ -207,21 +209,51 @@
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System"><Private>False</Private></Reference>
-    <Reference Include="System.Configuration"><Private>False</Private></Reference>
-    <Reference Include="System.Data"><Private>False</Private></Reference>
-    <Reference Include="System.Data.DataSetExtensions"><Private>False</Private></Reference>
-    <Reference Include="System.Drawing"><Private>False</Private></Reference>
-    <Reference Include="System.EnterpriseServices"><Private>False</Private></Reference>
-    <Reference Include="System.Web"><Private>False</Private></Reference>
-    <Reference Include="System.Web.ApplicationServices"><Private>False</Private></Reference>
-    <Reference Include="System.Web.DynamicData"><Private>False</Private></Reference>
-    <Reference Include="System.Web.Entity"><Private>False</Private></Reference>
-    <Reference Include="System.Web.Extensions"><Private>False</Private></Reference>
-    <Reference Include="System.Web.Mobile"><Private>False</Private></Reference>
-    <Reference Include="System.Web.Services"><Private>False</Private></Reference>
-    <Reference Include="System.XML"><Private>False</Private></Reference>
-    <Reference Include="System.Xml.Linq"><Private>False</Private></Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.XML">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
@@ -276,6 +308,18 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DXAppSportSchool.Module.Web\DXAppSportSchool.Module.Web.csproj">
+      <Project>{277E267D-E74D-4FDA-B6BE-E070CA810F0E}</Project>
+      <Name>DXAppSportSchool.Module.Web</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\DXAppSportSchool.Module\DXAppSportSchool.Module.csproj">
+      <Project>{83341061-50C3-4415-9C7D-611C3310C010}</Project>
+      <Name>DXAppSportSchool.Module</Name>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

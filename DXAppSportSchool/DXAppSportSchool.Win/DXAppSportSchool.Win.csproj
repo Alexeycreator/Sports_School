@@ -39,7 +39,7 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-   <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="23.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="23.2.5" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v23.2">
@@ -244,20 +244,27 @@
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
-    <Private>False</Private></Reference>
-    <Reference Include="System.configuration"><Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Data">
       <Name>System.Data</Name>
-    <Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Drawing">
       <Name>System.Drawing</Name>
-    <Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Windows.Forms">
       <Name>System.Windows.Forms</Name>
-    <Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
-    <Private>False</Private></Reference>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\Logo.svg" />
@@ -280,15 +287,27 @@
     <Compile Include="WinApplication.Designer.cs">
       <DependentUpon>WinApplication.cs</DependentUpon>
     </Compile>
-	<Compile Include="XafSplashScreen.cs">
+    <Compile Include="XafSplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="XafSplashScreen.Designer.cs">
       <DependentUpon>XafSplashScreen.cs</DependentUpon>
     </Compile>
-	<EmbeddedResource Include="XafSplashScreen.resx">
+    <EmbeddedResource Include="XafSplashScreen.resx">
       <DependentUpon>XafSplashScreen.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DXAppSportSchool.Module.Win\DXAppSportSchool.Module.Win.csproj">
+      <Project>{3DF7DD07-2952-4FAA-9345-06CCA745C65B}</Project>
+      <Name>DXAppSportSchool.Module.Win</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\DXAppSportSchool.Module\DXAppSportSchool.Module.csproj">
+      <Project>{83341061-50C3-4415-9C7D-611C3310C010}</Project>
+      <Name>DXAppSportSchool.Module</Name>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
